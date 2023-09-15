@@ -1,0 +1,182 @@
+@media (max-width: 900px) {
+    .container{
+        width: 90%;
+        margin: 20% auto;
+        
+    }
+    
+    img{
+        border-radius: 50px;
+        width: 15%;
+    }
+    
+    .container .first-flex .part1 .first{
+        color: hsl(300, 43%, 22%);
+        font-family: 'League Spartan', sans-serif;
+        font-weight: bold;
+        font-size: 200%;
+        width: 70%;
+        text-align: center;
+        margin-inline: auto;
+    }
+    
+    .container .first-flex .part1 .second{
+        color: hsl(300, 43%, 22%);
+        font-family: 'League Spartan', sans-serif;
+        font-size: 110%;
+        margin: 30px auto;
+        text-align: center;
+    }
+    
+    .container .first-flex .part2 .review{
+        background-color: hsl(303, 10%, 95%);
+        color: hsl(300, 43%, 22%);
+        font-family: 'League Spartan', sans-serif;
+        font-weight: bold;
+        margin: 10% auto;
+        border-radius: 10px;
+        padding: 5% 0%;
+    }
+    
+    .container .first-flex .part2 .review .rating{
+        text-align: center;
+    }
+    
+    .container .first-flex .part2 .review .stars {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+    
+    .container .second-flex .section{
+        background-color:  hsl(300, 43%, 22%);
+        border-radius: 10px;
+        margin: 5% auto;
+        padding: 10% 10%;
+    }
+    
+    .container .second-flex .section .profile{
+        display: flex;
+        gap: 1rem;
+        color: hsl(0, 0%, 100%);
+        font-family: 'League Spartan', sans-serif;
+        font-weight: bold;
+    }
+    
+    .container .second-flex .section .profile .beside-image .verify{
+        color: hsl(333, 80%, 67%);
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    
+    .container .second-flex .section .description{
+        color: hsl(300, 24%, 95%);
+        margin: 10% 0%;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+}
+
+
+
+
+
+@media (min-width: 901px){
+
+    .container{
+        width: 80%;
+        margin: 5% auto;
+    }
+
+    .container .first-flex{
+        display: flex;
+        
+    }
+
+    .container .first-flex .part1{
+        width: 55%;
+    }
+
+    .container .first-flex .part1 .first{
+        color: hsl(300, 43%, 22%);
+        font-family: 'League Spartan', sans-serif;
+        font-weight: bold;
+        font-size: 300%;
+        width: 60%;
+    }
+
+    .container .first-flex .part1 .second{
+        color: hsl(300, 43%, 22%);
+        font-family: 'League Spartan', sans-serif;
+        margin: 5% 0;
+        width: 70%;
+    }
+
+    .container .first-flex .part2 .review{
+        display: flex;
+        gap: 1rem;
+        background-color: hsl(303, 10%, 95%);
+        color: hsl(300, 43%, 22%);
+        font-family: 'League Spartan', sans-serif;
+        font-weight: bold;
+        border-radius: 10px;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        padding: 3% 5%;
+        width: 100%;
+    }
+
+    .left-margin-2{
+        margin-left: 15%;
+    }
+
+    .left-margin-3{
+        margin-left: 30%;
+    }
+
+    img{
+        border-radius: 50px;
+        width: 20%;
+    }
+
+    .container .second-flex{
+        display: flex;
+        margin-top: 3%;
+    }
+
+    .top-margin-2{
+        margin-top: 2%;
+        margin-left: 1%;
+    }
+
+    .top-margin-3{
+        margin-top: 5%;
+        margin-left: 1%;
+    }
+
+    .container .second-flex .section{
+        background-color:  hsl(300, 43%, 22%);
+        border-radius: 10px;
+        padding: 3% 3%;
+        height: 10%;
+    }
+
+    .container .second-flex .section .profile{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        color: hsl(0, 0%, 100%);
+        font-family: 'League Spartan', sans-serif;
+        font-weight: bold;
+    }
+    
+    .container .second-flex .section .profile .beside-image .verify{
+        color: hsl(333, 80%, 67%);
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    
+    .container .second-flex .section .description{
+        color: hsl(300, 24%, 95%);
+        margin: 10% 0%;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
+}
